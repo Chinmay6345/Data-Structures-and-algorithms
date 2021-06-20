@@ -6,9 +6,9 @@ namespace Ttree_Traversals
 
     public class BinaryTree
     {
-        BinaryTree left;
-        BinaryTree right;
-        Int32 key;
+        public BinaryTree left;
+        public BinaryTree right;
+        public Int32 key;
 
         public BinaryTree(Int32 value)
         {

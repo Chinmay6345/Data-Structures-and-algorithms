@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Geeks", "Geeks", "{3EFC7A64
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ttree Traversals", "Ttree Traversals\Ttree Traversals.csproj", "{3F0FB6C7-463E-40AD-9389-DAFEA8AC200F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Height of Binary tree", "Height of Binary tree\Height of Binary tree.csproj", "{2F5878BC-FCDF-432F-802A-1330EDDFFC38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,12 +79,17 @@ Global
 		{3F0FB6C7-463E-40AD-9389-DAFEA8AC200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F0FB6C7-463E-40AD-9389-DAFEA8AC200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F0FB6C7-463E-40AD-9389-DAFEA8AC200F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5878BC-FCDF-432F-802A-1330EDDFFC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5878BC-FCDF-432F-802A-1330EDDFFC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5878BC-FCDF-432F-802A-1330EDDFFC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5878BC-FCDF-432F-802A-1330EDDFFC38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3F0FB6C7-463E-40AD-9389-DAFEA8AC200F} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
+		{2F5878BC-FCDF-432F-802A-1330EDDFFC38} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4CBC9B-CFC1-4300-81A9-13D9C0F20D44}
