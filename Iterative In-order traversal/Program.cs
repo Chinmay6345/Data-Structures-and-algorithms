@@ -25,6 +25,30 @@ namespace Iterative_In_order_traversal
                 }
             }
         }
+
+        public static void IterativeInorder_SpaceOptimal(TreeNode root)
+        {
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+            if (root == null)
+                return;
+            TreeNode curr = root;
+            while(curr!=null)
+            {
+                while(curr!=null || stack.Count !=0)
+                {
+                    Console.Write(curr.val + " ");
+                    if(curr.right!=null)
+                    {
+                        stack.Push(curr.right);
+                    }
+                    curr = curr.left;
+                    if(stack.Count!=0)
+                    {
+                        curr = stack.Pop();
+                    }
+                }
+            }
+        }
     }
 
 
