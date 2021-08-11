@@ -2,6 +2,7 @@
 
 namespace Count_nodes_in_a_complete_Binary_Tree
 {
+    //Tc O(logn*logn)
     public class TreeNode
     {
         public int val;
